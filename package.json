@@ -1,0 +1,30 @@
+{
+  "name": "job-app-analyzer",
+  "version": "1.0.0",
+  "description": "A project combining Node.js and Python components.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlueThunderGames/Job-Application-Analyzer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlueThunderGames/Job-Application-Analyzer/issues"
+  },
+  "homepage": "https://github.com/BlueThunderGames/Job-Application-Analyzer#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.4.0",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}
