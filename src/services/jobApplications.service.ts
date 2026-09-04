@@ -7,3 +7,11 @@ export async function createJobApplication(data: {
 }) {
   return prisma.jobApplication.create({ data });
 }
+
+export async function getAllJobApplications() {
+  return prisma.jobApplication.findMany();
+}
+
+export async function getJobApplicationById(id: number) {
+  return prisma.jobApplication.findUnique({ where: { id } });
+}
